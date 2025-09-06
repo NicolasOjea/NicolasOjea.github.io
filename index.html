@@ -1,304 +1,446 @@
 <!DOCTYPE html>
-<html data-bs-theme="light" lang="en" data-bss-forced-theme="light">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>GrupoSia</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&amp;family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;display=swap">
-    <link rel="stylesheet" href="assets/css/bootstrap-icons.css">
-    <link rel="stylesheet" href="assets/css/Font%20Awesome%205%20Brands.css">
-    <link rel="stylesheet" href="assets/css/Font%20Awesome%205%20Free.css">
-    <link rel="stylesheet" href="assets/css/Font%20Awesome%206%20Brands.css">
-    <link rel="stylesheet" href="assets/css/Font%20Awesome%206%20Free.css">
-    <link rel="stylesheet" href="assets/css/FontAwesome.css">
-    <link rel="stylesheet" href="assets/css/swiper-icons.css">
-    <link rel="stylesheet" href="assets/css/aos.min.css">
-    <link rel="stylesheet" href="assets/css/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/css/aos.min.css">
-    <link rel="stylesheet" href="assets/css/css/vendor/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/css/vendor/bootstrap-icons/bootstrap-icons.css">
-    <link rel="stylesheet" href="assets/css/css/vendor/fontawesome-free/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/css/vendor/aos/aos.css">
-    <link rel="stylesheet" href="assets/css/css/vendor/glightbox/css/glightbox.min.css">
-    <link rel="stylesheet" href="assets/css/css/vendor/swiper/swiper-bundle.min.css">
-    <link rel="stylesheet" href="assets/css/css/css/main.css">
+    <title>Apex - Home Repair Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Poppins:wght@600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
-    <header class="d-flex align-items-center header" id="header">
-        <div class="container-fluid d-flex justify-content-between align-items-center container-xl"><a class="d-flex align-items-center logo" href="index.html"><h1>GrupoSIA<span>.</span></h1></a><i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i><i class="d-none mobile-nav-toggle mobile-nav-hide bi bi-x"></i>
-            <nav id="navbar" class="navbar">
-                <ul>
-                    <li><a href="index.html" class="active">INICIO</a></li>
-                    <li><a href="about.html">Nosotros</a></li>
-                    <li><a href="contact.html">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <section id="hero" class="hero">
-        <div class="d-flex align-items-center info">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6 text-center">
-                        <h2 data-aos="fade-down">BIENVENIDO A <br>GRUPO SIA<span></span></h2>
-                        <p data-aos="fade-up">Somos una empresa constructora especializada en el ámbito agropecuario, dedicada a hacer realidad tus visiones. Nuestro enfoque se centra en la planificación, diseño y construcción de infraestructuras de alta calidad, como silos de granos, almacén de fertilizantes y todo lo que el sector agropecuario necesita para prosperar. Nuestra pasión es impulsar el crecimiento y la productividad de la agricultura y la ganadería, respaldando a nuestros clientes con soluciones constructivas de primer nivel.</p>
-                    </div>
-                </div>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <h3 class="m-0"><i class="fa fa-building text-primary me-3"></i>GRUPO SIA</h3>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-3 py-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Inicio</a>
+                <a href="about.html" class="nav-item nav-link">Nosotros</a>
+                <a href="contact.html" class="nav-item nav-link">Contacto</a>
             </div>
         </div>
-        <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
-            <div class="carousel-item active" style="background-image:url(assets/img/hero-carousel/hero-carousel-1.jpg);"></div>
-            <div class="carousel-item" style="background-image:url(assets/img/hero-carousel/hero-carousel-2.jpg);"></div>
-            <div class="carousel-item" style="background-image:url(assets/img/hero-carousel/hero-carousel-3.jpg);"></div>
-            <div class="carousel-item" style="background-image:url(assets/img/hero-carousel/hero-carousel-4.jpg);"></div>
-            <div class="carousel-item" style="background-image:url(assets/img/hero-carousel/hero-carousel-5.jpg);"></div><a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span></a><a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next"><span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span></a>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/carousel-1.jpg" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-lg-10">
+                                    <h3 class="text-light text-uppercase mb-3 animated slideInDown">BIENVENIDO A GRUPO SIA</h3>
+                                    <h2 class="display-2 text-light mb-3 animated slideInDown">Una empresa constructora especializada en el ámbito agropecuario</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/carousel-2.jpg" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-lg-10">
+                                    <h3 class="text-light text-uppercase mb-3 animated slideInDown">BIENVENIDO A GRUPO SIA</h3>
+                                    <h2 class="display-2 text-light mb-3 animated slideInDown">Dedicada a hacer realidad tus visiones</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
         </div>
-    </section>
-    <main id="main">
-        <section id="constructions" class="constructions">
-            <div class="container" data-aos="fade-up">
-                <div class="section-header">
-                    <h2>Construcciones</h2>
-                    <p>Nuestro objetivo es construir depósitos innovadores y seguros para impulsar la productividad agrícola y satisfacer las necesidades del cliente</p>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="position-relative overflow-hidden ps-5 pt-5 h-100" style="min-height: 400px;">
+                        <img class="position-absolute w-100 h-100" src="img/about.jpg" alt="" style="object-fit: cover;">
+                        <div class="position-absolute top-0 start-0 bg-white pe-3 pb-3" style="width: 200px; height: 200px;">
+                            <div class="d-flex flex-column justify-content-center text-center bg-primary h-100 p-3">
+                                <h1 class="text-white">25</h1>
+                                <h2 class="text-white">Años</h2>
+                                <h5 class="text-white mb-0">De experiencia</h5>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="row gy-4">
-                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="card-item">
-                            <div class="row">
-                                <div class="col-xl-5">
-                                    <div class="card-bg" style="background-image:url(assets/img/constructions-1.jpg);"></div>
-                                </div>
-                                <div class="col-xl-7 d-flex align-items-center">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Diseñamos a medida tus ideas.</h4>
-                                        <p>Diseñamos a medida tus ideas para construir un mundo agrícola más eficiente y próspero, donde cada estructura sea un paso hacia un futuro sostenible y exitoso.</p>
-                                    </div>
-                                </div>
-                            </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="h-100">
+                        <div class="border-start border-5 border-primary ps-4 mb-5">
+                            <h6 class="text-body text-uppercase mb-2">Sobre nosotros</h6>
+                            <h1 class="display-6 mb-0">Ofrecemos soluciones unicas para sus problemas!</h1>
                         </div>
-                    </div>
-                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-                        <div class="card-item">
-                            <div class="row">
-                                <div class="col-xl-5">
-                                    <div class="card-bg" style="background-image:url(assets/img/constructions-2.jpg);"></div>
+                        <p>Somos una empresa constructora líder en el sector agropecuario. Nos especializamos en la planificación y construcción de infraestructuras clave como silos de granos y almacenes de fertilizantes. Nuestra pasión es impulsar el crecimiento de la agricultura y la ganadería, brindando soluciones de alta calidad para que nuestros clientes prosperen.</p>
+                        <p class="mb-4">Nos manejamos con los siguientes valores</p>
+                        <div class="border-top mt-4 pt-4">
+                            <div class="row g-4">
+                                <div class="col-sm-4 d-flex wow fadeIn" data-wow-delay="0.1s">
+                                    <i class="fa fa-check fa-2x text-primary flex-shrink-0 me-3"></i>
+                                    <h6 class="mb-0">Responsabilidad</h6>
                                 </div>
-                                <div class="col-xl-7 d-flex align-items-center">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Evaluamos la factibilidad técnica.</h4>
-                                        <p>Evaluamos la factibilidad técnica de tus proyectos, aportando soluciones con experiencia y visión, para construir un futuro sólido y próspero en cada desafío que enfrentes.</p>
-                                    </div>
+                                <div class="col-sm-4 d-flex wow fadeIn" data-wow-delay="0.3s">
+                                    <i class="fa fa-check fa-2x text-primary flex-shrink-0 me-3"></i>
+                                    <h6 class="mb-0">Cumplimiento</h6>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-                        <div class="card-item">
-                            <div class="row">
-                                <div class="col-xl-5">
-                                    <div class="card-bg" style="background-image:url(assets/img/constructions-3.jpg);"></div>
-                                </div>
-                                <div class="col-xl-7 d-flex align-items-center">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Minimizamos errores.</h4>
-                                        <p>Minimizamos errores con experiencia y precisión, construyendo un camino confiable hacia el éxito en cada proyecto, donde la calidad y la eficiencia son nuestra máxima prioridad.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
-                        <div class="card-item">
-                            <div class="row">
-                                <div class="col-xl-5">
-                                    <div class="card-bg" style="background-image:url(assets/img/constructions-4.jpg);"></div>
-                                </div>
-                                <div class="col-xl-7 d-flex align-items-center">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Rápida ejecución.</h4>
-                                        <p>Rápida ejecución con excelencia y eficiencia, construyendo un futuro sólido donde cada proyecto se materializa con agilidad y precisión, superando expectativas en cada paso del camino.</p>
-                                    </div>
+                                <div class="col-sm-4 d-flex wow fadeIn" data-wow-delay="0.5s">
+                                    <i class="fa fa-check fa-2x text-primary flex-shrink-0 me-3"></i>
+                                    <h6 class="mb-0">Integridad</h6>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <section id="services" class="services section-bg">
-            <div class="container" data-aos="fade-up">
-                <div class="section-header">
-                    <h2>Servicios</h2>
-                    <p>A continuación, te presentaremos una variedad de servicios especializados diseñados para satisfacer tus necesidades y superar tus expectativas.</p>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Facts Start -->
+    <div class="container-fluid my-5 p-0">
+        <div class="row g-0">
+            <div class="col-xl-3 col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+                <div class="position-relative">
+                    <img class="img-fluid w-100" src="img/fact-1.jpg" alt="">
+                    <div class="facts-overlay">
+                        <h1 class="display-1">01</h1>
+                        <h4 class="text-white mb-3">Diseñamos a medida tus ideas.</h4>
+                        <p class="text-white">Diseñamos a medida tus ideas para construir un mundo agrícola más eficiente y próspero, donde cada estructura sea un paso hacia un futuro sostenible y exitoso.</p>
+                    </div>
                 </div>
-                <div class="row gy-4">
-                    <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
-                        <div class="service-item position-relative">
-                            <div class="icon"><i class="fa-solid fa-mountain-city"></i></div>
-                            <h3>Planificación integral</h3>
-                            <p>La planificación integral para nuestra empresa implica una estrategia cohesiva que optimiza recursos y procesos para lograr metas con éxito.</p>
+            </div>
+            <div class="col-xl-3 col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+                <div class="position-relative">
+                    <img class="img-fluid w-100" src="img/fact-2.jpg" alt="">
+                    <div class="facts-overlay">
+                        <h1 class="display-1">02</h1>
+                        <h4 class="text-white mb-3">Evaluamos la factibilidad técnica.</h4>
+                        <p class="text-white">Evaluamos la factibilidad técnica de tus proyectos, aportando soluciones con experiencia y visión, para construir un futuro sólido y próspero en cada desafío que enfrentes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+                <div class="position-relative">
+                    <img class="img-fluid w-100" src="img/fact-3.jpg" alt="">
+                    <div class="facts-overlay">
+                        <h1 class="display-1">03</h1>
+                        <h4 class="text-white mb-3">Minimizamos errores.</h4>
+                        <p class="text-white">Minimizamos errores con experiencia y precisión, construyendo un camino confiable hacia el éxito en cada proyecto, donde la calidad y la eficiencia son nuestra máxima prioridad.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-sm-6 wow fadeIn" data-wow-delay="0.7s">
+                <div class="position-relative">
+                    <img class="img-fluid w-100" src="img/fact-4.jpg" alt="">
+                    <div class="facts-overlay">
+                        <h1 class="display-1">04</h1>
+                        <h4 class="text-white mb-3">Rápida ejecución.</h4>
+                        <p class="text-white">Rápida ejecución con excelencia y eficiencia, construyendo un futuro sólido donde cada proyecto se materializa con agilidad y precisión, superando expectativas en cada paso del camino.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Facts End -->
+
+
+    <!-- Features Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="border-start border-5 border-primary ps-4 mb-5">
+                        <h6 class="text-body text-uppercase mb-2">Servicios</h6>
+                        <h1 class="display-6 mb-0">Te acompañamos desde el principio al final del Proyecto</h1>
+                    </div>
+                    <p class="mb-5">Pasando por etapas como:</p>
+                    <div class="row gy-5 gx-4">
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fa fa-check fa-2x text-primary flex-shrink-0 me-3"></i>
+                                <h6 class="mb-0">Planificación integral</h6>
+                            </div>
+                            <span>La planificación integral para nuestra empresa implica una estrategia cohesiva que optimiza recursos y procesos para lograr metas con éxito.</span>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fa fa-check fa-2x text-primary flex-shrink-0 me-3"></i>
+                                <h6 class="mb-0">Evaluación técnica</h6>
+                            </div>
+                            <span>Realizamos un proceso exhaustivo que analiza la viabilidad, calidad y eficiencia de soluciones basadas en criterios técnicos y especializados.</span>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fa fa-check fa-2x text-primary flex-shrink-0 me-3"></i>
+                                <h6 class="mb-0">Factibilidad económica</h6>
+                            </div>
+                            <span>Analizamos la viabilidad de un proyecto desde una perspectiva técnica, evaluando su realización, recursos y viabilidad.</span>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fa fa-check fa-2x text-primary flex-shrink-0 me-3"></i>
+                                <h6 class="mb-0">Cumplimiento normativo</h6>
+                            </div>
+                            <span>Realizamos un seguimiento de la obra, con el fin de respetar las regulaciones y estándares legales, garantizando operaciones legales y éticas en la empresa.</span>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-                        <div class="service-item position-relative">
-                            <div class="icon"><i class="fa-solid fa-arrow-up-from-ground-water"></i></div>
-                            <h3>Mantenimiento continuo</h3>
-                            <p>El mantenimiento continuo asegura el funcionamiento óptimo de instalaciones y equipos, previniendo fallos y prolongando su vida útil de manera constante.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
-                        <div class="service-item position-relative">
-                            <div class="icon"><i class="fa-solid fa-compass-drafting"></i></div>
-                            <h3>Evaluación técnica</h3>
-                            <p>Realizamos un proceso exhaustivo que analiza la viabilidad, calidad y eficiencia de soluciones basadas en criterios técnicos y especializados.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
-                        <div class="service-item position-relative">
-                            <div class="icon"><i class="fa-solid fa-trowel-bricks"></i></div>
-                            <h3>Factibilidad económica</h3>
-                            <p>Analizamos la viabilidad de un proyecto desde una perspectiva técnica, evaluando su realización, recursos y viabilidad.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
-                        <div class="service-item position-relative">
-                            <div class="icon"><i class="fa-solid fa-helmet-safety"></i></div>
-                            <h3>Cumplimiento normativo</h3>
-                            <p>Realizamos un seguimiento de la obra, con el fin de respetar las regulaciones y estándares legales, garantizando operaciones legales y éticas en la empresa</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="600">
-                        <div class="service-item position-relative">
-                            <div class="icon"><i class="fa-solid fa-arrow-up-from-ground-water"></i></div>
-                            <h3>Monitoreo constante</h3>
-                            <p>Vigilamos constantemente los procesos o sistemas para detectar, analizar y abordar cambios o problemas de manera inmediata</p>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="position-relative overflow-hidden ps-5 pt-5 h-100" style="min-height: 400px;">
+                        <img class="position-absolute w-100 h-100" src="img/feature.jpg" alt="" style="object-fit: cover;">
+                        <div class="position-absolute top-0 start-0 bg-white pe-3 pb-3" style="width: 200px; height: 200px;">
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <section id="alt-services" class="alt-services">
-            <div class="container" data-aos="fade-up">
-                <div class="row gy-4 justify-content-around">
-                    <div class="col-lg-6 img-bg" data-aos="zoom-in" data-aos-delay="100" style="background-image:url(assets/img/alt-services.jpg);"></div>
-                    <div class="col-lg-5 d-flex flex-column justify-content-center">
-                        <h3>Testimonios</h3>
-                        <p>En Grupo SIA, estamos orgullosos de nuestro compromiso con la excelencia en la construcción y de la satisfacción de nuestros clientes. A lo largo de los años, hemos tenido el privilegio de trabajar en una amplia variedad de proyectos de construcción, desde remodelaciones de hogares hasta grandes desarrollos comerciales. La opinión de nuestros clientes es fundamental para nosotros, y es un testimonio de nuestra dedicación a la calidad y al servicio excepcional.<br><br><br></p>
-                        <div class="d-flex icon-box position-relative" data-aos="fade-up" data-aos-delay="100">
-                            <div>
-                                <h4><a class="stretched-link">Compañia de granos e insumos SA</a></h4>
-                                <p>"Hemos contratado a Grupo SIA para construir una instalación de última generación para nuestra granja. Su equipo demostró un profundo conocimiento en construcciones agropecuarias y superó nuestras expectativas. El proyecto se completó a tiempo y dentro del presupuesto, y la calidad del trabajo es excepcional. Recomendamos encarecidamente, para proyectos agropecuarios."</p>
-                            </div>
+        </div>
+    </div>
+    <!-- Features End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5 align-items-end mb-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="border-start border-5 border-primary ps-4">
+                        
+                        <h1 class="display-6 mb-0">Nuestros Proyectos</h1>
+                        <h6 class="text-body text-uppercase mb-2">Presentaremos nuestros proyectos, ejemplos destacados de nuestro trabajo y logros en diversas áreas de especialización.</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item bg-light overflow-hidden h-100">
+                        <img class="img-fluid" src="img/service-1.jpg" alt="">
+                        <div class="service-text position-relative text-center h-100 p-4">
+                            <h5 class="mb-3">Proyecto Cordoba</h5>
+                            <p>Construcción de galpón agroquímico moderno con ventilación y seguridad controlada.</p>
+                            
                         </div>
-                        <div class="d-flex icon-box position-relative" data-aos="fade-up" data-aos-delay="200">
-                            <div>
-                                <h4><a class="stretched-link">Cerealistas</a></h4>
-                                <p>"Después de investigar varias empresas constructoras, elegimos a Grupo SIA para construir nuestros establos y sistemas de riego. Estamos extremadamente satisfechos con la experiencia. Su equipo se mostró altamente profesional y comprometido con la eficiencia y la sostenibilidad. El resultado final es impresionante, y la inversión valió la pena."</p>
-                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item bg-light overflow-hidden h-100">
+                        <img class="img-fluid" src="img/service-2.jpg" alt="">
+                        <div class="service-text position-relative text-center h-100 p-4">
+                            <h5 class="mb-3">Proyecto Rosario</h5>
+                            <p>Galpón industrial para almacenamiento seguro de herbicidas y fertilizantes agrícolas.</p>
+                            
                         </div>
-                        <div class="d-flex icon-box position-relative" data-aos="fade-up" data-aos-delay="300">
-                            <div>
-                                <h4><a class="stretched-link">Ingemar</a></h4>
-                                <p>"Como dueño de una finca, la elección de la empresa adecuada para construir nuestra infraestructura agropecuaria era crucial. [Nombre de tu Empresa] cumplió con creces nuestras expectativas. Su equipo mostró un profundo conocimiento de las necesidades agropecuarias y trabajó de manera eficiente. El proceso fue transparente y el resultado final es de alta calidad. Estamos contentos de haberlos elegido"</p>
-                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item bg-light overflow-hidden h-100">
+                        <img class="img-fluid" src="img/service-3.jpg" alt="">
+                        <div class="service-text position-relative text-center h-100 p-4">
+                            <h5 class="mb-3">Proyecto Mendoza</h5>
+                            <p>Centro logístico de agroquímicos con sistemas de carga y descarga eficiente.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item bg-light overflow-hidden h-100">
+                        <img class="img-fluid" src="img/service-4.jpg" alt="">
+                        <div class="service-text position-relative text-center h-100 p-4">
+                            <h5 class="mb-3">Proyecto Salta</h5>
+                            <p>Depósito especializado en productos químicos agrícolas con control de temperatura.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item bg-light overflow-hidden h-100">
+                        <img class="img-fluid" src="img/service-5.jpg" alt="">
+                        <div class="service-text position-relative text-center h-100 p-4">
+                            <h5 class="mb-3">Proyecto Bahía Blanca</h5>
+                            <p>Nave de almacenamiento agroquímico con accesos amplios y monitoreo digital.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item bg-light overflow-hidden h-100">
+                        <img class="img-fluid" src="img/service-6.jpg" alt="">
+                        <div class="service-text position-relative text-center h-100 p-4">
+                            <h5 class="mb-3">Proyecto Tucumán</h5>
+                            <p>Instalación industrial para agroquímicos con normas ambientales y seguridad reforzada.</p>
+                            
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <section id="projects" class="projects">
-            <div class="container" data-aos="fade-up">
-                <div class="section-header">
-                    <h2>Nuestros Proyectos</h2>
-                    <p>Presentaremos nuestros proyectos, ejemplos destacados de nuestro trabajo y logros en diversas áreas de especialización.</p>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5 align-items-end mb-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="border-start border-5 border-primary ps-4">
+                        <h6 class="text-body text-uppercase mb-2">Nuestro equipo</h6>
+                        <h1 class="display-6 mb-0">Expertos en nuestra empresa</h1>
+                    </div>
                 </div>
-                <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order">
-                    <ul data-aos="fade-up" data-aos-delay="100" class="portfolio-flters">
-                        <li data-filter="*" class="filter-active">Todos</li>
-                        <li data-filter=".filter-construction">Construcciones</li>
-                        <li data-filter=".filter-design">Diseños</li>
-                    </ul>
-                    <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
-                        <div class="col-md-6 col-lg-4 portfolio-item filter-construction">
-                            <div class="portfolio-content h-100"><img class="img-fluid" src="assets/img/projects/construction-1.jpg" alt="">
-                                <div class="portfolio-info">
-                                    <p></p><a href="assets/img/projects/construction-1.jpg" title="Construction 1" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in" style="margin-bottom:25px;margin-top:13px;padding-right:0px;padding-bottom:0px;margin-right:32px;margin-left:33px;"></i></a><a href="project-details.html" title="More Details" class="details-link"></a>
-                                </div>
-                            </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <p class="mb-0">Contamos con un grupo de profesionales especializados en construcción industrial y agroquímica. Ingenieros, arquitectos y técnicos trabajan en conjunto para garantizar seguridad, eficiencia y calidad en cada proyecto.</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item position-relative">
+                        <img class="img-fluid" src="img/team-1.jpg" alt="">
+                        <div class="team-text bg-white p-4">
+                            <h5>Juan Carlos Martinez</h5>
+                            <span>Engineer</span>
                         </div>
-                        <div class="col-md-6 col-lg-4 portfolio-item filter-construction">
-                            <div class="portfolio-content h-100"><img class="img-fluid" src="assets/img/projects/construction-2.jpg" alt="">
-                                <div class="portfolio-info">
-                                    <p></p><a href="assets/img/projects/construction-2.jpg" title="Construction 2" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in" style="padding-left:0px;margin-left:33px;"></i></a><a href="project-details.html" title="More Details" class="details-link"></a>
-                                </div>
-                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item position-relative">
+                        <img class="img-fluid" src="img/team-2.jpg" alt="">
+                        <div class="team-text bg-white p-4">
+                            <h5>Constanza Martinez</h5>
+                            <span>Engineer</span>
                         </div>
-                        <div class="col-md-6 col-lg-4 portfolio-item filter-repairs">
-                            <div class="portfolio-content h-100"><img class="img-fluid" src="assets/img/projects/repairs-2.jpg" alt="">
-                                <div class="portfolio-info">
-                                    <p></p><a href="assets/img/projects/repairs-2.jpg" title="Repairs 2" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in" style="margin-left:0px;position:relative;"></i></a><a href="project-details.html" title="More Details" class="details-link"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 portfolio-item filter-design">
-                            <div class="portfolio-content h-100"><img class="img-fluid" src="assets/img/projects/design-2.jpg" alt="">
-                                <div class="portfolio-info"><a href="assets/img/projects/design-2.jpg" title="Repairs 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in" style="margin-left:0px;"></i></a><a href="project-details.html" title="More Details" class="details-link"></a></div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 portfolio-item filter-construction">
-                            <div class="portfolio-content h-100"><img class="img-fluid" src="assets/img/projects/construction-3.jpg" alt="">
-                                <div class="portfolio-info"><a href="assets/img/projects/construction-3.jpg" title="Construction 3" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in" style="margin-left:0px;"></i></a><a href="project-details.html" title="More Details" class="details-link"></a></div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 portfolio-item filter-design">
-                            <div class="portfolio-content h-100"><img class="img-fluid" src="assets/img/projects/design-3.jpg" alt="">
-                                <div class="portfolio-info"><a href="assets/img/projects/design-3.jpg" title="Repairs 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a><a href="project-details.html" title="More Details" class="details-link"></a></div>
-                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item position-relative">
+                        <img class="img-fluid" src="img/team-3.jpg" alt="">
+                        <div class="team-text bg-white p-4">
+                            <h5>Matias Martinez</h5>
+                            <span>Engineer</span>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-    </main>
-    <footer id="footer" class="footer">
-        <div class="footer-content position-relative">
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6">
+                    <h1 class="text-white mb-4"><i class="fa fa-building text-primary me-3"></i>GRUPO SIA</h1>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-light mb-4">Contacto</h4>
+                    <p><i class="fa fa-map-marker-alt me-3"></i>C. Candonga 4500-4598, X5009IHJ Córdoba</p>
+                    <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-light mb-4">Nuestras Redes</h4>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-primary me-1" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-primary me-1" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-primary me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid copyright">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="footer-info">
-                            <h3>GrupoSia</h3>
-                            <div class="d-flex social-links mt-3"><a class="d-flex justify-content-center align-items-center" href="https://twitter.com/sxfigiamba"><i class="bi bi-twitter"></i></a><a class="d-flex justify-content-center align-items-center" href="https://www.facebook.com/sofi.giamba.1"><i class="bi bi-facebook"></i></a><a class="d-flex justify-content-center align-items-center" href="https://www.instagram.com/sofigiamba/"><i class="bi bi-instagram"></i></a><a class="d-flex justify-content-center align-items-center" href="https://www.linkedin.com/search/results/all/?keywords=GRUPO%20SIA%20S.R.L.&sid=K%3AA"><i class="bi bi-linkedin"></i></a></div>
-                        </div>
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="#">Your Site Name</a>, All Right Reserved.
                     </div>
-                    <div class="col">
-                        <p>C. Candonga 4500-4598, X5009IHJ Córdoba&nbsp; &nbsp; &nbsp; <br><br><strong>Telefono:</strong> +1 234 5678 945<br><strong>Email:</strong> info@ejemplo.com<br></p>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a href="https://htmlcodex.com">HTML Codex</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="text-center footer-legal position-relative">
-            <div class="container">
-                <div class="copyright"><span> © Copyright </span><strong><span>GrupoSIA</span></strong><span>. All Rights Reserved </span></div>
-            </div>
-        </div>
-    </footer><a class="d-flex justify-content-center align-items-center scroll-top" href="#"><i class="bi bi-arrow-up-short"></i></a>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/aos.min.js"></script>
-    <script src="assets/js/bs-init.js"></script>
-    <script src="assets/js/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/js/aos.min.js"></script>
-    <script src="assets/js/js/bs-init.js"></script>
-    <script src="assets/js/js/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/js/vendor/aos/aos.js"></script>
-    <script src="assets/js/js/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/js/js/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/js/js/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/js/js/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/js/js/vendor/php-email-form/validate.js"></script>
-    <script src="assets/js/js/js/main.js"></script>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>
